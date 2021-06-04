@@ -1,6 +1,6 @@
 {
   "name": "@fellow-worker/mediator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package brings the mediator pattern to React typescript",
   "main": "lib/index.js",
   "scripts": {
