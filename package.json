@@ -1,0 +1,38 @@
+{
+  "name": "@fellow-worker/mediator",
+  "version": "1.0.0",
+  "description": "This package brings the mediator pattern to React typescript",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "build": "rm -rf lib && tsc --build --force --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fellow-worker/mediator.git"
+  },
+  "keywords": [
+    "Typescript",
+    "Javascript",
+    "Mediator"
+  ],
+  "author": "Fellow Worker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fellow-worker/mediator/issues"
+  },
+  "homepage": "https://github.com/fellow-worker/mediator#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/jest": "^26.0.23",
+    "@types/react": "^17.0.9",
+    "babel-jest": "^27.0.2",
+    "jest": "^27.0.4",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
