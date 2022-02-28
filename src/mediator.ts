@@ -30,8 +30,8 @@ export class Mediator {
 
 const singleton = new Mediator();
 
-export const emit = async<TRequest,TResponse> (event : string,request : TRequest) => {
-    return await getMediator().emit(event, request);
+export const emit = async<TRequest,TResponse> (event : string, request : TRequest) => {
+    return await getMediator().emit(event, request) as TResponse;
 }
 
 export const getMediator = () => { return singleton };
